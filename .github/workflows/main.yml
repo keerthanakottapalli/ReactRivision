@@ -42,7 +42,7 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: |
-          gcloud run deploy react-deploy-sampleapplication \
+          gcloud run deploy reactrevisionvandana \
             --image=vandana23/reactrevisionvandana:$GITHUB_SHA \
             --platform=managed \
             --region=${{ secrets.GCP_REGION }} \
