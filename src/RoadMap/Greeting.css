@@ -1,0 +1,42 @@
+.greeting-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .greeting-container h1 {
+    color: #333;
+  }
+  
+  .greeting-input {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .greeting-button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .greeting-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .greeting-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
